@@ -40,9 +40,10 @@ class RGLEDMatrix80x7Class
 	 void ClearBuffer();
 	 void SetPixel(byte x, byte y, color ledCol);
 	 byte flipByte(byte c);
+	 void DisplaySpectrum(byte data[80]);
 
-	 byte LEDBufferRED[10][7];
-	 byte LEDBufferGREEN[10][7]; 
+	 byte LEDBufferRED[7][10];
+	 byte LEDBufferGREEN[7][10]; 
 	 color ledColor;
 	 
 	
