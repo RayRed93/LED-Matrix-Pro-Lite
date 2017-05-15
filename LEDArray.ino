@@ -28,18 +28,6 @@ void setup()
 float k = 1;
 void loop()
 {
-//	SinAnimation();
-
-	//ledMatrix.ClearBuffer();
-	//for (size_t i = 1; i <= 80; i++)
-	//{
-	//	float d = (i / 80.)*16. + j;
-	//	byte value1 = (3.*sin(d)) + 4;
-	//	//byte value2 = (3.*cos(d)) + 4;
-	//	ledMatrix.SetPixel(i, value1, RED);
-	//	//ledMatrix.SetPixel(i, value2, GREEN);
-	//}
-	//j += 0.5;
 	
 	ledMatrix.ClearBuffer();
 	
